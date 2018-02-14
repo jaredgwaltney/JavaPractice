@@ -1,13 +1,10 @@
 class Factorial {
 	int factR(int n) {
-		System.out.println("factR called with n = " + n);
 		int result;
 		if (n==1) {
-			System.out.println("Returning 1.");
 			return 1;
 		}
 		result = factR(n-1) * n;
-		System.out.println("result = " + result);
 		return result;
 	}
 	
