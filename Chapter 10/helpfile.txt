@@ -1,0 +1,32 @@
+#if
+if (condition) statement;
+else statement;
+
+#switch
+switch (expression) {
+  case constant:
+	statement sequence
+	break;
+  // ...
+}
+
+#for
+for (initialization; condition; iteration) {
+  statement sequence
+}
+
+#while
+while (condition) {
+  statement sequence
+}
+
+#do
+do {
+  statement sequence
+} while (condition);
+
+#break
+break; or break label;
+
+#continue
+continue; or continue label;
